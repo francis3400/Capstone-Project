@@ -106,8 +106,8 @@ showMoreButton.addEventListener('click', () => {
   isShowMore = !isShowMore;
   loadSpeakers(data);
   if (isShowMore) {
-    showMoreButton.innerHTML = 'show less';
+    showMoreButton.innerHTML = 'SHOW LESS';
   } else {
-    showMoreButton.innerHTML = 'show more';
+    showMoreButton.innerHTML = 'SHOW MORE';
   }
 });

@@ -255,6 +255,7 @@ hr {
 .text-2 {
   color: #000;
   font-size: 10px;
+  padding: 6%;
 }
 
 .summit-bottom {
@@ -346,6 +347,15 @@ h1 {
   -webkit-background-clip: text;
 }
 
+.hide {
+  display: none;
+}
+
+.footer-div,
+.footer {
+  display: none;
+}
+
 h4 {
   color: rgb(239, 81, 60);
 }
@@ -399,11 +409,11 @@ li {
 
 .footer-div {
   background-color: #fff;
+  align-items: center;
+  height: 50px;
+  padding: 7% 7%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  height: 90px;
-  padding: 0 10%;
 }
 
 /* sponsors stated here */
@@ -453,6 +463,10 @@ li {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+  }
+
+  .hide {
+    display: block;
   }
 
   .guide_2 {
@@ -571,8 +585,8 @@ li {
   }
 
   .nav-bar a img {
-    width: 60%;
     height: auto;
+    width: 80%;
   }
 
   .nav-item:not(:first-child) {
@@ -637,10 +651,6 @@ li {
     place-items: center;
   }
 
-  .footer-div {
-    padding: 0 25%;
-  }
-
   .partnership {
     display: flex;
   }
@@ -656,5 +666,12 @@ li {
 
   .show-more {
     display: none;
+  }
+
+  .footer-div,
+  .footer {
+    display: flex;
+    gap: 50%;
+    padding: 0 20%;
   }
 }
