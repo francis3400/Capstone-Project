@@ -669,4 +669,14 @@ li {
   .show-more {
     display: none;
   }
+
+  .footer-div,
+  .footer {
+    background-color: #fff;
+    align-items: center;
+    height: 50px;
+    padding: 7% 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
