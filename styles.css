@@ -192,6 +192,8 @@ a {
   place-items: center;
   background: rgba(255, 255, 255, 0.1);
   margin-bottom: 10px;
+  gap: 20px;
+  padding-right: 10px;
 }
 
 .lists-container {
@@ -255,7 +257,7 @@ hr {
 .text-2 {
   color: #000;
   font-size: 10px;
-  padding: 6%;
+  padding-top: 10%;
 }
 
 .summit-bottom {
@@ -666,12 +668,5 @@ li {
 
   .show-more {
     display: none;
-  }
-
-  .footer-div,
-  .footer {
-    display: flex;
-    gap: 50%;
-    padding: 0 20%;
   }
 }
